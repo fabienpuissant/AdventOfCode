@@ -1,9 +1,9 @@
 package org.advent.code;
 
 import org.advent.code.day.five.DayFive;
-import org.advent.code.day.five.DayFiveBis;
 import org.advent.code.day.four.DayFour;
-import org.advent.code.day.four.DayFourBis;
+import org.advent.code.day.height.DayHeight;
+import org.advent.code.day.height.DayHeightBis;
 import org.advent.code.day.one.DayOne;
 import org.advent.code.day.one.DayOneBis;
 import org.advent.code.day.three.DayThree;
@@ -12,7 +12,6 @@ import org.advent.code.day.two.DayTwo;
 import org.advent.code.day.two.DayTwoBis;
 
 import java.io.IOException;
-import java.math.BigDecimal;
 
 public class App {
 
@@ -45,7 +44,14 @@ public class App {
         System.out.println("####################  Day Five solution ####################");
         System.out.println(DayFive.solvePuzzle("dayFivePuzzle.txt"));
 
-        System.out.println("####################  Day Five Bis solution ####################");
-        System.out.println(DayFiveBis.solvePuzzle("dayFivePuzzle.txt"));
+        //System.out.println("####################  Day Five Bis solution ####################");
+        //System.out.println(DayFiveBis.solvePuzzle("dayFivePuzzle.txt"));
+
+
+
+        System.out.println("####################  Day Height solution ####################");
+        System.out.println(DayHeight.solvePuzzle("dayHeightPuzzle.txt"));
+        //System.out.println("####################  Day Height Bis solution ####################");
+        //System.out.println(DayHeightBis.solvePuzzle("dayHeightPuzzle.txt"));
     }
 }
